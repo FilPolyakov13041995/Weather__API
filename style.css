@@ -1,0 +1,65 @@
+*,
+::before,
+::after {
+  margin: 0;
+}
+
+.weather {
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+  margin: 20px auto;
+  background: linear-gradient(45deg, #00c6fb, #005bea);
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 60px;
+  color: white;
+}
+
+h1 {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+button {
+  padding: 20px;
+  width: 150px;
+  margin: 20px auto 20px;
+  margin-left: 25%;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(139, 53, 238);
+  color: white;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(191, 88, 222);
+}
+
+.description {
+  font-size: 30px;
+  color: white;
+}
+
+.windSpeed {
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: white;
+}
